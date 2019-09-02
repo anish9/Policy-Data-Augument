@@ -34,9 +34,12 @@ optional arguments:
 
 
 ```
-#### running the code when all set (NOTE : augumented image files are saved on the same folder itself )
+#### Running the code when all set (NOTE : augumented image files are saved on the same folder itself )
 ```
 python3 build_dataset.py -f train_data/ -r 5 -p imagenet
 
 
 ```
+
+#### To do
+[ ] Perceptual hasher to be added to remove context level duplicates
