@@ -16,7 +16,7 @@ The project has been build on top of [AutoAugment](https://github.com/DeepVoltai
     └── ...
     
  
-> check the helps before execution
+#### check the helps before execution
 ```
 python3 build_dataset.py -h
 usage: build_dataset.py [-h] -f FILES_DIRECTORY -r REPLICAS -p POLICY
@@ -31,6 +31,12 @@ optional arguments:
                         augumentations
   -p POLICY, --policy POLICY
                         available policies are svhn, imagenet, cifar, all
+
+
+```
+#### running the code when all set (NOTE : augumented image files are saved on the same folder itself )
+```
+python3 build_dataset.py -f train_data/ -r 5 -p imagenet
 
 
 ```
