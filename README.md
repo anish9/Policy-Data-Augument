@@ -16,3 +16,7 @@ The project has been build on top of [AutoAugment](https://github.com/DeepVoltai
     └── ...
     
  
+```
+data_dir =  "/home/anish/data_dir/" #Root training and Val data dir 
+
+```
