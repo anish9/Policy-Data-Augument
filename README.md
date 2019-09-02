@@ -16,7 +16,21 @@ The project has been build on top of [AutoAugment](https://github.com/DeepVoltai
     └── ...
     
  
+> check the helps before execution
 ```
-data_dir =  "/home/anish/data_dir/" #Root training and Val data dir 
+python3 build_dataset.py -h
+usage: build_dataset.py [-h] -f FILES_DIRECTORY -r REPLICAS -p POLICY
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FILES_DIRECTORY, --files_directory FILES_DIRECTORY
+                        root image file directory containing classes and under
+                        classes containing images
+  -r REPLICAS, --replicas REPLICAS
+                        number of times an image has to undergo policy
+                        augumentations
+  -p POLICY, --policy POLICY
+                        available policies are svhn, imagenet, cifar, all
+
 
 ```
