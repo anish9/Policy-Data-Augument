@@ -12,5 +12,7 @@ The project has been build on top of [AutoAugment](https://github.com/DeepVoltai
     ├── Orange                    
     │   ├── orange1.jpg          
     │   ├── orange2.jpg         
-    │   └── ornage3.jpg          # Image directory structure
+    │   └── ornage3.jpg          # Image directory structure (something similiar to classifier friendly structure) 
     └── ...
+    
+ 
