@@ -47,7 +47,7 @@ python3 build_dataset.py -f train_data/ -r 5 -p imagenet
 
 #### About work
  - I deeply thank [DeepVoltaire](https://github.com/DeepVoltaire/AutoAugment) for creating Autoaugument and all the credits to be directed to him.
- - This repo has been created with more focus on to tackle data insuffiency problem, also easy it create a daatset in seconds and experiment training (tensorflow, keras users friendly). 
- - Even if you have 15 images using the power of replica you can manipulate your data exponentially in seconds with respect to the policies paper from google research. read it for clarity.
+ - This repo has been created with more focus on to tackle data insufficiency problem, also easy to create a datset in seconds and experiment training (tensorflow, keras users friendly). 
+ - Even if you have 15 images using the power of replica you can manipulate your data exponentially in seconds with respect to the policies paper from google research, read it for clarity.
  - Contributions are appreciated
   
