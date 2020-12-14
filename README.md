@@ -45,7 +45,7 @@ python3 build_dataset.py -f train_data/ -r 5 -p imagenet
 - [ ] Perceptual hasher to be added to remove context level duplicates
 - [ ] Updates are welcome
 
-#### About work
+#### Acknowledgement
  - I deeply thank [DeepVoltaire](https://github.com/DeepVoltaire/AutoAugment) for creating Autoaugument and all the credits to be directed to him.
  - Take more control on your creation by playing with sub policy file.( Its all about to reach top validation acc)
  - This repo has been created with more focus on to tackle data insufficiency problem, also easy to create a dataset in seconds and experiment training (tensorflow, keras users friendly). 
