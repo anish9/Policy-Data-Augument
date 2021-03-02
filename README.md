@@ -2,7 +2,7 @@
 The project has been build on top of [AutoAugment](https://github.com/DeepVoltaire/AutoAugment)
 
 ### USAGE
-#### we need to have folder structure in similiar way
+#### set folder structure in similiar way
 
     ├── image_classifier_data
     ├── Apple                    
